@@ -64,7 +64,8 @@
                 <version>3.5.2</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>testng.xml</suiteXmlFile>
+                        <!--suppress UnresolvedMavenProperty -->
+                        <suiteXmlFile>${suite}</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
